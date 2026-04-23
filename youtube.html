@@ -4,13 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YouTube.com Clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="youtube.css">
 </head>
 <body>
   <input class="search_bar" type="text" placeholder="Search">
   
   <div class="video_preview">
-    <div>
+    <div class="thumbnail_row">
       <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
     </div>
     <div>
@@ -31,17 +34,27 @@
       </div>
     </div>
   </div>
+
   <div class="video_preview">
-    <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-    <p class="vide0_title">
-      Try Not To Laugh Challenge &#35;9
-    </p>
-    <p class="video_author">
-      Markiplier
-    </p>
-    <p class="video_stats">
-      19M views &middot; 4 years ago
-    </p>
+    <div class="thumbnail_row">
+      <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+    </div>
+    <div>
+      <div class="channel_picture">
+        <img class="profile_picture" src="chaneel-pictures/channel-2.jpeg">
+      </div>
+      <div class="video_info">
+        <p class="video_title">
+          Try Not To Laugh Challenge &#35;9
+        </p>
+        <p class="video_author">
+          Markiplier
+        </p>
+        <p class="video_stats">
+          19M views &middot; 4 years ago
+        </p>
+      </div>
+    </div>
   </div>
 </body>
 </html>

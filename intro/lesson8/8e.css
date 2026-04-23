@@ -1,0 +1,38 @@
+.request_ride{
+  font-family: Arial;
+  font-size: 32px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.pickup_location{
+  font-family: Arial;
+  display:block;
+  width: 220px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 5px;
+  border:none;
+}
+
+.destination{
+  font-family: Arial;
+  display:block;
+  width: 220px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 5px;
+  border:none;
+}
+
+button{
+  background-color: black;
+  padding: 8px 12px;
+  color:white;
+}
+
+.bottom_text{
+  display:inline-block;
+  margin-left: 20px;
+
+}

@@ -1,0 +1,70 @@
+p{
+  margin: 0;
+}
+
+.tweet{
+  display: flex;
+  width: 400px;
+  justify-content: center;
+  font-family: Arial;
+}
+
+.img_column{
+  margin-right: 10px;
+}
+
+.profile_img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.tweet_column{
+  flex: 1;
+}
+
+.account_tag{
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.account_name{
+  color: black;
+  font-weight: bold;
+}
+
+.tweet_text{
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.youtube_preview{
+  display:flex;
+  border: solid 1px gray;
+  align-items: center;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.youtube_img{
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  margin-right: 10px;
+
+}
+
+.video_info{
+  flex: 1;
+}
+.youtube_link{
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.video_name{
+  line-height: 22px;
+}
+

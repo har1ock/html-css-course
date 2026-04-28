@@ -1,0 +1,45 @@
+.lot{
+  position: relative;
+  width: 200px;
+  cursor: pointer;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+p{
+  font-family: Arial;
+  font-size: 10px;
+  padding: 5px 12px;
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  background-color: black;
+  color: white;
+}
+
+.overlay{
+  background-color: rgba(255, 255, 255, 0.815);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  position: absolute;
+}
+
+button{
+  font-family: Arial;
+  font-size: 10px;
+  border: solid 1px black;
+  box-shadow: 1px 1px 3px black;
+  padding: 5px 12px;
+  position: absolute;
+  top: 15px;
+  right: 60px;
+
+}

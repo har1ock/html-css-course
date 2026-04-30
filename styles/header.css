@@ -67,7 +67,9 @@
 
 .search_button,
 .voice_search_button,
-.upload_icon_container{
+.upload_icon_container,
+.apps_container,
+.notification_icon_container{
   position: relative;
   display: flex;
   justify-content: center;
@@ -76,7 +78,9 @@
 
 .search_button .tooltip,
 .voice_search_button .tooltip,
-.upload_icon_container .tooltip{
+.upload_icon_container .tooltip,
+.apps_container .tooltip,
+.notification_icon_container .tooltip{
   font-family: Roboto, Arial;
   position: absolute;
   background-color: gray;
@@ -93,7 +97,9 @@
 
 .search_button:hover .tooltip,
 .voice_search_button:hover .tooltip,
-.upload_icon_container:hover .tooltip{
+.upload_icon_container:hover .tooltip,
+.apps_container:hover .tooltip,
+.notification_icon_container:hover .tooltip{
   opacity: 1;
 }
 

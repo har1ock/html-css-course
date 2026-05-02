@@ -53,8 +53,28 @@
   row-gap: 40px;
 }
 
+@media (max-width: 750px) {
+  .video_grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .video_grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video_grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
+
 .video_time{
-  font-family: Roboto, Arial;
+
   font-size: 12px;
   font-weight: 500;
   padding: 4px;
@@ -72,7 +92,6 @@
 }
 
 .channel_tooltip{
-  font-family: Roboto, Arial;
   position: absolute;
   width: 200px;
   align-items: center;

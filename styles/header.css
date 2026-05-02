@@ -81,7 +81,6 @@
 .upload_icon_container .tooltip,
 .apps_container .tooltip,
 .notification_icon_container .tooltip{
-  font-family: Roboto, Arial;
   position: absolute;
   background-color: gray;
   color: white;
@@ -150,7 +149,6 @@
   right: -5px;
   background-color: rgb(199, 0, 0);
   color: white;
-  font-family: Roboto, Arial;
   font-size: 11px;
   padding: 2px 5px;
   border-radius: 10px;

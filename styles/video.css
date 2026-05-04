@@ -11,6 +11,13 @@
   margin-bottom: 10px;
 }
 
+@media (min-width :1000px){
+  .video_title{
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
 .video_title_link{
   text-decoration: none;
   color: black;
@@ -46,6 +53,13 @@
   margin-bottom: 4px;
 }
 
+@media (min-width :1000px){
+  .video_author,
+  .video_stats{
+    font-size: 14px;
+  }
+}
+
 .video_grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -70,8 +84,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
-
-
 
 .video_time{
 
